@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_truecaller/flutter_truecaller.dart';
-import 'package:truecaller_flutter_app/Pages/OnBordingPage.dart';
+import 'package:truecaller_flutter_app/Pages/OnBordingPage/GettingStarted.dart';
 import 'package:truecaller_flutter_app/Pages/verify_mobile_number.dart';
 
+import 'Pages/LoginPage.dart';
 import 'Pages/home_page.dart';
 
 void main() => runApp(
@@ -18,9 +19,8 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  final FlutterTruecaller truecaller = FlutterTruecaller();
   @override
   Widget build(BuildContext context) {
-    return OnBordingPage();
+    return GettingStartedScreen();
   }
 }
