@@ -4,19 +4,14 @@ import 'package:truecaller_flutter_app/Pages/verify_mobile_number.dart';
 
 import 'home_page.dart';
 
-void main() => runApp(
-      MaterialApp(
-        home: MyApp(),
-        debugShowCheckedModeBanner: false,
-      ),
-    );
+class LoginPage extends StatefulWidget {
+  const LoginPage({Key key}) : super(key: key);
 
-class MyApp extends StatefulWidget {
   @override
-  _MyAppState createState() => _MyAppState();
+  _LoginPageState createState() => _LoginPageState();
 }
 
-class _MyAppState extends State<MyApp> {
+class _LoginPageState extends State<LoginPage> {
   final FlutterTruecaller truecaller = FlutterTruecaller();
 
   @override
@@ -39,7 +34,7 @@ class _MyAppState extends State<MyApp> {
       appBar: AppBar(
         backgroundColor: Color(0xFFEC5161),
         centerTitle: true,
-        title: Text("Truecaller Flutter App"),
+        title: Text("MeriSarkar"),
       ),
       body: Center(
         child: Padding(
