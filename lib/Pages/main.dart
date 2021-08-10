@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_truecaller/flutter_truecaller.dart';
-import 'package:truecaller_flutter_app/verify_mobile_number.dart';
+import 'package:truecaller_flutter_app/Pages/verify_mobile_number.dart';
 
 import 'home_page.dart';
 
