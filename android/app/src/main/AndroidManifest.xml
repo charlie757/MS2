@@ -1,11 +1,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ms"> 
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.truecaller_flutter_app">
+    <uses-sdk tools:overrideLibrary="com.truecaller.android.sdk"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     <uses-permission android:name="android.permission.READ_CALL_LOG"/>
     <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="ms"
+        android:label="truecaller_flutter_app"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
@@ -41,5 +45,9 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+            
+        <meta-data
+            android:name="com.truecaller.android.sdk.PartnerKey"
+            android:value="mKP73af50a7e1dc9846db88695b41331d2c17" />
     </application>
 </manifest>

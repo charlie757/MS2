@@ -32,7 +32,7 @@ class _loginpageState extends State<loginpage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(title: Text("TrueCaller")),
-        body: Column(children: [
+        body: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
           Text("Login and Sign-Up"),
           SizedBox(
             height: 20,

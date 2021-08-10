@@ -1,6 +1,6 @@
 {
-    "name": "ms",
-    "short_name": "ms",
+    "name": "truecaller_flutter_app",
+    "short_name": "truecaller_flutter_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
